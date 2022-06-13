@@ -1,0 +1,69 @@
+.background {
+	background-image: url(../Images/background.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.chiti {
+
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	width: 200px;
+	height: 200px;
+	animation: chiti 30s infinite;
+
+	
+}
+
+
+
+@keyframes chiti {
+
+0% {right: 100px;}
+100% {right: 1000px;}
+
+}
+
+
+
+.chiti2 {
+
+	position: absolute;
+	top: 250px;
+	right: 300px;
+	transform: rotate(-5deg);
+	width: 200px;
+	height: 200px;
+	animation: chiti 30s infinite;
+
+	
+}
+
+
+@keyframes chiti2 {
+
+0% {right: 50px;}
+100% {right: 1550px;}
+
+}
+
+.zvio {
+
+    position: absolute;
+	top: 650px;
+	left: 650px;
+	width: 300px;
+	height: 200px;
+	animation: zvio 30s infinite;
+    transform: rotate(-10deg);
+	
+}
+
+ @keyframes zvio {
+
+ 	0% { left: 100px; }
+ 	100% {left: 950px;}
+ }
